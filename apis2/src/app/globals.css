@@ -1,0 +1,111 @@
+/* General dark theme settings */
+body {
+  background-color: #121212;
+  color: #E0E0E0;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1E1E1E;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+h1, h2 {
+  color: #BB86FC;
+  margin-bottom: 20px;
+}
+
+/* General text and paragraph styles */
+p {
+  color: #B0B0B0;
+  line-height: 1.6;
+}
+
+/* Button styles */
+button {
+  background-color: #BB86FC;
+  color: #121212;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #985EFF;
+}
+
+/* Input field for search bars */
+input[type="text"] {
+  background-color: #2C2C2C;
+  color: #E0E0E0;
+  border: 1px solid #444;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+/* List styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #2E2E25;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+.leaflet-popup-content-wrapper {
+  background-color: #2C2C2C;
+  color: #E0E0E0;
+  border-radius: 8px;
+}
+
+.leaflet-popup-tip {
+  background-color: #2C2C2C;
+}
+
+#map {
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+  body {
+    height: auto;
+    padding: 20px;
+  }
+}
+
+a{
+  color: #985EFF;
+  text-decoration: none;
+}
